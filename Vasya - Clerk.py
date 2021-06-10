@@ -62,4 +62,4 @@ def tickets(people):
         return 'NO'
 
 
-tickets([25, 25, 50, 100])
+print(tickets([25, 25, 50, 100]))

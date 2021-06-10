@@ -18,4 +18,4 @@ def order(sentence):
 
     return " ".join(item for item in res)
 
-order("4of Fo1r pe6ople g3ood th5e the2")
+print(order("4of Fo1r pe6ople g3ood th5e the2"))

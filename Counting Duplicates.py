@@ -15,4 +15,4 @@ def duplicate_count(text):
     return f' Количество дупликатов равно : {dupl}'
 
 
-duplicate_count("abrakaDabra")
+print(duplicate_count("abrakaDabra"))
