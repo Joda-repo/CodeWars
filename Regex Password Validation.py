@@ -8,4 +8,20 @@
 #     contains a number
 
 # Valid passwords will only be alphanumeric characters.
+def check (string):
+    import re
+    if re.fullmatch(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,}$', string):
+        return True
+    else:
+        return False
+
+print(check('fjd3IR9'))
+print(check('ghdfj32'))
+print(check('DSJKHD23'))
+print(check('dsF43'))
+print(check('4fdg5Fj3'))
+
+
+
+
 
