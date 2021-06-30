@@ -11,6 +11,11 @@ def duplicate_count(text):
                     break
                 else:
                     i +=1
+
+
+
+
+
         else:pass
     return f' Количество дупликатов равно : {dupl}'
 
