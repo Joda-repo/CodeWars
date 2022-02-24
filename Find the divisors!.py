@@ -2,6 +2,9 @@
 # divisors(except for 1 and the number itself), from smallest to largest. If the number is prime return the string
 # (integer) is prime' (null in C#) (use Either String a in Haskell and Result<Vec<u32>, String> in Rust).
 
+from tabnanny import check
+
+
 def divisors(integer):
     array1 = []
     y = 2
@@ -16,5 +19,3 @@ def divisors(integer):
     return array1
 
 divisors(13)
-
-
